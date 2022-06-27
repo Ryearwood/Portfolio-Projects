@@ -1,0 +1,30 @@
+Youtube Project Installation Set up
+
+------------------------------------------------------------------------------
+Step 1 - Create New Virtual Environment
+------------------------------------------------------------------------------
+1) Using Virtual Environment Package
+python -m venv YouTubeEnv
+
+2) Using AnaConda through Git Bash
+conda create -n YouTubeEnv python=3.8.8
+
+------------------------------------------------------------------------------
+Step 2 - Activate Environment
+------------------------------------------------------------------------------ 
+# Windows  == .\YouTubeEnv\Scripts\activate
+# Linux    == source YouTubeEnv/bin/activate
+# Git Bash == conda activate YouTubeEnv
+
+------------------------------------------------------------------------------
+Step 3 - Install Dependencies & Add Virtual Environment to Python Kernel
+------------------------------------------------------------------------------
+python -m pip install --upgrade pip
+pip install --user ipykernel
+python -m ipykernel install --user --name=YouTubeEnv
+pip install --user -r requirements.txt
+
+------------------------------------------------------------------------------
+Step 4 - To Remove/Disconnect Virtual Environment from Jupyter if Needed
+------------------------------------------------------------------------------
+# Git bash == jupyter kernelspec uninstall YouTubeEnv
