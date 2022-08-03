@@ -1,5 +1,5 @@
 # Image-Based Automatic Number Plate Extraction
-.
+
 #### -- Project Status: [Completed]
 
 ## Project Intro
