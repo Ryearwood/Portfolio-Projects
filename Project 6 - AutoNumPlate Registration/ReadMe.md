@@ -1,7 +1,7 @@
 # Image-Based Automatic Number Plate Extraction
-***
+---
 #### Project Status: [Completed]
-***
+---
 ## Project Intro
 The purpose of this project is to build a simple, but intuitive License Plate Extractor from images of vehicles passed to it. There are a few general purposes for such a tool, but the most widely known business application would be in the automation of parkinging/payment systems (Such as the automatic registration of vehicles coming into/out of a company parking lot) - this can save both the employees time arriving and leaving work, while also saving the business resources by detecting vehicles that do not have authorization to park in the lot area. There are, of course, many other use-cases as well but this is just a general example.
 
