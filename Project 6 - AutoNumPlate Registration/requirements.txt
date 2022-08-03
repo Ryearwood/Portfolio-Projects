@@ -1,5 +1,5 @@
-torch
-torchvision
+pytorch-cpu
+torchvision-cpu
 numpy
 matplotlib
 streamlit==1.11.1
