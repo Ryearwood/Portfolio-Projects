@@ -2,5 +2,5 @@ imutils
 matplotlib
 numpy
 easyocr
-streamlit
+streamlit==1.11.1
 opencv-python-headless
