@@ -48,7 +48,9 @@ In this project, the main goal is to explore the uses of two main python librari
 3. Follow Environment Setup instructions [Here](https://github.com/Ryearwood/Portfolio-Projects/blob/main/Project%206%20-%20AutoNumPlate%20Registration/Environment_Setup_Instructions.txt)
 4. Download and install requirements.txt [Here](https://github.com/Ryearwood/Portfolio-Projects/blob/main/Project%206%20-%20AutoNumPlate%20Registration/requirements.txt)
 5. Download Appropriate Pytorch version (GPU vs CPU) - Follow guide [Here](https://pytorch.org/get-started/locally/)
-6. From CLI ==streamlit run AutoNumPlateExtract_Deploy.py== 
+6. From CLI:
+        - `cd ~/Project 6 - AutoNumPlate Registration`
+        - `streamlit run AutoNumPlateExtract_Deploy.py`
 
 ## Featured Notebooks/Analysis/Deliverables
 * [ANPR Streamlit Deployment Script](https://github.com/Ryearwood/Portfolio-Projects/blob/main/Project%206%20-%20AutoNumPlate%20Registration/AutoNumPlateExtract_Deploy.py)
