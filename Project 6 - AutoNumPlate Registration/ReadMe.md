@@ -12,7 +12,7 @@ The purpose of this project is to build a simple, but intuitive License Plate Ex
 * Text Extraction
 
 ### Technologies Used
-* Python
+* Python == 3.8.8
 * VSCode
 * Numpy, Jupyter Lab
 * Streamlit
