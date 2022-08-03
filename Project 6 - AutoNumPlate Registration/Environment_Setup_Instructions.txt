@@ -1,0 +1,30 @@
+Automatic Number Plate Registration Project Installation Set up
+
+------------------------------------------------------------------------------
+Step 1 - Create New Virtual Environment
+------------------------------------------------------------------------------
+1) Using Virtual Environment Package
+python -m venv ANPR_Env
+
+2) Using AnaConda through Git Bash
+conda create -n ANPR_Env python=3.8.8
+
+------------------------------------------------------------------------------
+Step 2 - Activate Environment
+------------------------------------------------------------------------------ 
+# Windows  == .\YouTubeEnv\Scripts\activate
+# Linux    == source ANPR_Env/bin/activate
+# Git Bash == conda activate ANPR_Env
+
+------------------------------------------------------------------------------
+Step 3 - Install Dependencies & Add Virtual Environment to Python Kernel
+------------------------------------------------------------------------------
+python -m pip install --upgrade pip
+pip install --user ipykernel
+python -m ipykernel install --user --name=ANPR_Env
+pip install --user -r requirements.txt
+
+------------------------------------------------------------------------------
+Step 4 - To Remove/Disconnect Virtual Environment from Jupyter if Needed
+------------------------------------------------------------------------------
+# Git bash == jupyter kernelspec uninstall ANPR_Env
