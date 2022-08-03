@@ -1,8 +1,8 @@
-imutils
-matplotlib
-numpy
-easyocr
-streamlit==1.11.1
-opencv-python-headless
 torch
 torchvision
+numpy
+matplotlib
+streamlit==1.11.1
+opencv-python-headless
+imutils
+easyocr
