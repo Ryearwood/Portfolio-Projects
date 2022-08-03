@@ -20,7 +20,16 @@ The purpose of this project is to build a simple, but intuitive License Plate Ex
 * EasyOCR
 
 ## Project Description
-In this project, the main goal is to explore the uses of two main python libraries and their capabilities - OpenCV and EasyOCR
+In this project, the main goal is to explore the uses of two main python libraries and their capabilities - OpenCV and EasyOCR to detect a License Plate from a picture of a vehicle. Once the image is received:
+
+1) The color channel is adjusted to Grayscale to make edge detection and contouring easier
+2) Noise Reduction is done on the raw image
+3) Followed by Localization of Edges that are detected
+4) Once the localized edges are detected, Contouring is done to located the landmarks in the filtered image
+5) Contours are stacked in a Tree format in descending order -- contours with 4 landmarks (rectange/square) are isolated
+6) Masking is applied to the rest of the filtered image
+7) Contoured area is overlaid on top of masked image and isolated to enlarge the cropped license plate
+8) EasyOCR module is then executed on the enlarged license plate image and text data is extracted
 
 ## Project Scope and Needs
 
