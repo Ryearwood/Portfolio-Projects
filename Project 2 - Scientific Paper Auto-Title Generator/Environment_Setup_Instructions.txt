@@ -1,0 +1,30 @@
+GPT-2 Title Generator - Scientific Papers Project Installation Set up
+
+------------------------------------------------------------------------------
+Step 1 - Create New Virtual Environment
+------------------------------------------------------------------------------
+1) Using Virtual Environment Package
+python -m venv GPT2_Env
+
+2) Using AnaConda through Git Bash
+conda create -n GPT2_Env python=3.8.8
+
+------------------------------------------------------------------------------
+Step 2 - Activate Environment
+------------------------------------------------------------------------------ 
+# Windows  == .\GPT2_Env\Scripts\activate
+# Linux    == source GPT2_Env/bin/activate
+# Git Bash == conda activate GPT2_Env
+
+------------------------------------------------------------------------------
+Step 3 - Install Dependencies & Add Virtual Environment to Python Kernel
+------------------------------------------------------------------------------
+python -m pip install --upgrade pip
+pip install --user ipykernel
+python -m ipykernel install --user --name=GPT2_Env
+pip install --user -r requirements.txt
+
+------------------------------------------------------------------------------
+Step 4 - To Remove/Disconnect Virtual Environment from Jupyter if Needed
+------------------------------------------------------------------------------
+# Git bash == jupyter kernelspec uninstall GPT2_Env
