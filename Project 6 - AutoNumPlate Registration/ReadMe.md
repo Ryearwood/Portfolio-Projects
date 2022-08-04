@@ -12,12 +12,12 @@ The purpose of this project is to build a simple, but intuitive License Plate Ex
 * Text Extraction
 
 ### Technologies Used
-* Python == 3.8.8
-* VSCode
+* [Python == 3.8.8](https://www.python.org/downloads/release/python-388/)
+* [VSCode](https://code.visualstudio.com/)
 * Numpy, Jupyter Lab
-* Streamlit
-* OpenCV
-* EasyOCR
+* [Streamlit](https://streamlit.io/)
+* [OpenCV](https://opencv.org/)
+* [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ## Project Description
 In this project, the main goal is to explore the uses of two main python libraries and their capabilities - OpenCV and EasyOCR to detect a License Plate from a picture of a vehicle. Once the image is received:
