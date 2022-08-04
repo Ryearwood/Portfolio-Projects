@@ -6,3 +6,14 @@ Project 6 - AutoNumPlate Registration/.ipynb_checkpoints/ReadMe-checkpoint.md
 Project 6 - AutoNumPlate Registration/.ipynb_checkpoints/Environment_Setup_Instructions-checkpoint.txt
 Project 2 - Scientific Paper Auto-Title Generator/.ipynb_checkpoints/Generate_Titles_GPT2-checkpoint.ipynb
 Project 2 - Scientific Paper Auto-Title Generator/.ipynb_checkpoints/requirements-checkpoint.txt
+Project 2 - Scientific Paper Auto-Title Generator/checkpoint/run1/encoder.json
+Project 2 - Scientific Paper Auto-Title Generator/checkpoint/run1/events.out.tfevents.1659638440.SOLARIS
+Project 2 - Scientific Paper Auto-Title Generator/checkpoint/run1/hparams.json
+*.bpe
+*.csv
+Project 2 - Scientific Paper Auto-Title Generator/models/117M/checkpoint
+Project 2 - Scientific Paper Auto-Title Generator/models/117M/encoder.json
+*.json
+*.data-00000-of-00001
+*.index
+*.meta
