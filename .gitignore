@@ -17,3 +17,9 @@ Project 2 - Scientific Paper Auto-Title Generator/models/117M/encoder.json
 *.data-00000-of-00001
 *.index
 *.meta
+Project 2 - Scientific Paper Auto-Title Generator/checkpoint/run1/checkpoint
+Project 2 - Scientific Paper Auto-Title Generator/checkpoint/run1/counter
+*.SOLARIS
+Project 2 - Scientific Paper Auto-Title Generator/samples/run1/samples-26
+Project 2 - Scientific Paper Auto-Title Generator/samples/run1/samples-51
+Project 2 - Scientific Paper Auto-Title Generator/samples/run1/samples-76
